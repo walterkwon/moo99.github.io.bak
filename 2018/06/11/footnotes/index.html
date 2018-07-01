@@ -11,18 +11,18 @@
   
   
   
-  <meta name="description" content="basic footnote[^1]here is an inline footnote^2and another one[^3]and another one[^4] [^1]: basic footnote content[^3]: paragraphfootnotecontent[^4]: footnote content with some markdown">
+  <meta name="description" content="basic footnote[1] here is an inline footnote[^2](inline footnote) and another one[2] and another one[3]    basic footnote content ↩  paragraph footnote content ↩  footnote content with some markdown ↩">
 <meta name="keywords" content="plugins">
 <meta property="og:type" content="article">
 <meta property="og:title" content="footnotes">
 <meta property="og:url" content="http://moo99.github.io/2018/06/11/footnotes/index.html">
 <meta property="og:site_name" content="Moo99">
-<meta property="og:description" content="basic footnote[^1]here is an inline footnote^2and another one[^3]and another one[^4] [^1]: basic footnote content[^3]: paragraphfootnotecontent[^4]: footnote content with some markdown">
+<meta property="og:description" content="basic footnote[1] here is an inline footnote[^2](inline footnote) and another one[2] and another one[3]    basic footnote content ↩  paragraph footnote content ↩  footnote content with some markdown ↩">
 <meta property="og:locale" content="en">
 <meta property="og:updated_time" content="2018-06-29T15:51:07.274Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="footnotes">
-<meta name="twitter:description" content="basic footnote[^1]here is an inline footnote^2and another one[^3]and another one[^4] [^1]: basic footnote content[^3]: paragraphfootnotecontent[^4]: footnote content with some markdown">
+<meta name="twitter:description" content="basic footnote[1] here is an inline footnote[^2](inline footnote) and another one[2] and another one[3]    basic footnote content ↩  paragraph footnote content ↩  footnote content with some markdown ↩">
   
     <link rel="alternate" href="/atom.xml" title="Moo99" type="application/atom+xml">
   
@@ -183,8 +183,23 @@
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>basic footnote[^1]<br>here is an inline footnote<a href="inline footnote">^2</a><br>and another one[^3]<br>and another one[^4]</p>
-<p>[^1]: basic footnote content<br>[^3]: paragraph<br>footnote<br>content<br>[^4]: footnote content with some <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank" rel="noopener">markdown</a></p>
+        <p>basic footnote<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup><br>
+here is an inline footnote[^2](inline footnote)<br>
+and another one<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup><br>
+and another one<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>basic footnote content <a href="#fnref1" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>paragraph<br>
+footnote<br>
+content <a href="#fnref2" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>footnote content with some <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank" rel="noopener">markdown</a> <a href="#fnref3" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
 
       
     </div>
